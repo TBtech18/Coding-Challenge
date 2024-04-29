@@ -15,18 +15,4 @@ class Solution {
 
   return prefix;
 }
-
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        String[] strs = {"flower", "flow", "flight"};
-
-        String longestPrefix = solution.longestCommonPrefix(strs);
-        if (longestPrefix.isEmpty()) {
-            System.out.println("There is no common Prefix.");
-        } else {
-            System.out.println("Longest Common Prefix: " + longestPrefix);
-      
-
-    }
-    }
-    }
+}
